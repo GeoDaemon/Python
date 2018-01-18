@@ -4,7 +4,7 @@ from netCDF4 import Dataset, stringtochar, chartostring
 import random, numpy
 
 
-nc = Dataset(r'C:\Users\ariverar\Downloads\maiac_A_20160127_2040_v2_normalized.nc')
+nc = Dataset(r'C:\Users\file.nc')
 nc
 
 
