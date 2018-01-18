@@ -10,7 +10,7 @@ crsDest = QgsCoordinateReferenceSystem(4326)
 
 layers = iface.layerTreeView().selectedLayers()
 for layer in layers:
-    file_name = r'C:/Users/ariverar/Downloads/' + layer.name() + '.tif'
+    file_name = r'C:/Users/path/' + layer.name() + '.tif'
     file_writer = QgsRasterFileWriter(file_name)
     pipe = QgsRasterPipe()
     provider = layer.dataProvider()
